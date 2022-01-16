@@ -8,6 +8,9 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
