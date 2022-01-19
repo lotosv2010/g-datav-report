@@ -5,7 +5,7 @@
     <div class="chart">
       <slot></slot>
     </div>
-    <div class="line">4</div>
+    <div class="line"></div>
     <div class="total">
       <slot name="footer"></slot>
     </div>
