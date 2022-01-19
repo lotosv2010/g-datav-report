@@ -27,6 +27,6 @@ export default {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
-  padding: 0 20px;
+  padding: 16px 20px;
 }
 </style>
