@@ -8,7 +8,7 @@
         ></div>
       </template>
       <template v-slot:footer>
-        <span>昨天订单量 </span>
+        <span>昨日订单量 </span>
         <span class="emphasis">¥ 2,000,000</span>
       </template>
     </common-card>
@@ -27,6 +27,7 @@ export default {
   methods: {
     initChart() {
       const option = {
+        tooltip: {},
         xAxis: {
           show: false,
           type: "category",
