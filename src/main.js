@@ -4,6 +4,7 @@ import router from "./router";
 import store from "./store";
 import "./plugins/element.js";
 import "./plugins/vecharts";
+import "./plugins/vueCharts";
 import "./style/index.scss";
 
 Vue.config.productionTip = false;
