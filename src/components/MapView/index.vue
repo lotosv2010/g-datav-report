@@ -21,7 +21,9 @@
           <div class="title">热门搜索</div>
         </template>
         <template>
-          <div class="chart">111</div>
+          <div class="chart">
+            <word-cloud />
+          </div>
         </template>
       </el-card>
     </div>
@@ -33,6 +35,7 @@ import mapStyle from "./mapStyle.json";
 import data from "./data.json";
 import geoCoordMap from "./geoCoordMap.json";
 import LiquidFill from "../LiquidFill";
+import WordCloud from "../WordCloud";
 
 const convertData = function (data) {
   const res = [];
@@ -52,6 +55,7 @@ export default {
   name: "MapView",
   components: {
     LiquidFill,
+    WordCloud,
   },
   data() {
     return {
