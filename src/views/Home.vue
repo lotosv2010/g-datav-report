@@ -12,6 +12,7 @@ import TopView from "@/components/TopView";
 import SalesView from "@/components/SalesView";
 import BottomView from "@/components/BottomView";
 import MapView from "@/components/MapView";
+import { format } from "@/utils/tools";
 // import { getWordCloud } from "../servers";
 export default {
   name: "Home",
@@ -25,7 +26,7 @@ export default {
     totalSales: {
       day: "7.33%",
       month: "38.79%",
-      value: "¥ 30,000,000",
+      value: format(30000000),
     },
   },
   mounted() {
