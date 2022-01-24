@@ -21,6 +21,13 @@ export default {
     BottomView,
     MapView,
   },
+  provide: {
+    totalSales: {
+      day: "7.33%",
+      month: "38.79%",
+      value: "¥ 30,000,000",
+    },
+  },
   mounted() {
     // getWordCloud();
   },
