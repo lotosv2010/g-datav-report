@@ -12,6 +12,7 @@ import TopView from "@/components/TopView";
 import SalesView from "@/components/SalesView";
 import BottomView from "@/components/BottomView";
 import MapView from "@/components/MapView";
+// import { getWordCloud } from "../servers";
 export default {
   name: "Home",
   components: {
@@ -19,6 +20,9 @@ export default {
     SalesView,
     BottomView,
     MapView,
+  },
+  mounted() {
+    // getWordCloud();
   },
 };
 </script>

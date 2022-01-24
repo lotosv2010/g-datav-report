@@ -186,3 +186,12 @@ export default {
   }
 }
 </style>
+<style lang="scss">
+.map-view {
+  .v-chart {
+    .anchorBL {
+      display: none !important;
+    }
+  }
+}
+</style>
